@@ -17,3 +17,6 @@
 .location-links{display:flex;flex-wrap:wrap;gap:6px 14px;margin:6px 0;overflow-wrap:anywhere}.location-links a{font-size:.8rem}.unavailable{margin:16px 0;padding:14px;border:1px dashed var(--line);border-radius:8px}.unavailable .restaurant{opacity:.8}.food-checklist,.legacy-record{margin-top:24px}.food-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:15px}.food-grid label{font-size:.9rem}.food-grid input{accent-color:var(--blue)}.legacy-record{border-left:4px solid var(--orange)}.legacy-record p{margin-top:10px;font-size:.9rem}@media(max-width:680px){.food-grid{grid-template-columns:1fr 1fr}.location-links{display:block}.location-links a{display:block;margin-top:5px}}
 
 .booking-badge{display:inline-block;padding:8px 12px;border-radius:8px;background:#fff4dc;color:#6c4a16;font-weight:600;font-size:14px}.meal-group>.booking-badge{margin-top:0}
+
+.route-card{background:#203e58;border-radius:18px;padding:24px;align-self:stretch;color:#fff}.route-card a{display:block;color:#fff;text-decoration:none;border-top:1px solid #ffffff30;padding:12px 0}.route-card b{color:#f6bc74;margin-right:14px}.route-card small{display:block;color:#c8d9e6;margin:4px 0 0 60px}.route-card a:hover{color:#f6bc74}
+.route-card .eyebrow{color:#b5d6e8}
