@@ -2187,3 +2187,1126 @@ const LEGACY_FOODS = [
   "九州市場熟食",
   "有機會再吃屋台"
 ];
+const FINAL = {
+  "version": "5.0",
+  "closed": "2026-11-10",
+  "expenses": [
+    {
+      "date": "未提供交易日",
+      "service_date": "11/05–11/10",
+      "merchant": "使用者補充",
+      "description": "中華航空福岡來回機票兩人",
+      "category": "機票",
+      "currency": "TWD",
+      "amount": 32972,
+      "status": "列入總額",
+      "evidence": "文字補充",
+      "notes": "",
+      "id": 0,
+      "activityDate": "11/05–11/10"
+    },
+    {
+      "date": "未提供交易日",
+      "service_date": "11/05–11/10",
+      "merchant": "使用者補充",
+      "description": "Airbnb 5 晚",
+      "category": "住宿",
+      "currency": "TWD",
+      "amount": 17802,
+      "status": "列入總額",
+      "evidence": "文字補充",
+      "notes": "",
+      "id": 1,
+      "activityDate": "11/05–11/10"
+    },
+    {
+      "date": "未提供交易日",
+      "service_date": "11/09",
+      "merchant": "使用者補充",
+      "description": "Klook 由布院一日遊兩人（11/09）",
+      "category": "行程活動",
+      "currency": "TWD",
+      "amount": 2874,
+      "status": "列入總額",
+      "evidence": "文字補充",
+      "notes": "",
+      "id": 2,
+      "activityDate": "11/09"
+    },
+    {
+      "date": "未提供交易日",
+      "service_date": "11/05–11/10",
+      "merchant": "使用者補充",
+      "description": "KKday eSIM 兩人",
+      "category": "通訊",
+      "currency": "TWD",
+      "amount": 842,
+      "status": "列入總額",
+      "evidence": "文字補充",
+      "notes": "",
+      "id": 3,
+      "activityDate": "11/05–11/10"
+    },
+    {
+      "date": "未提供交易日",
+      "service_date": "11/05–11/10",
+      "merchant": "使用者補充",
+      "description": "旅遊險兩人",
+      "category": "旅遊保險",
+      "currency": "TWD",
+      "amount": 3400,
+      "status": "列入總額",
+      "evidence": "文字補充",
+      "notes": "",
+      "id": 4,
+      "activityDate": "11/05–11/10"
+    },
+    {
+      "date": "未提供交易日",
+      "service_date": "11/05–11/10",
+      "merchant": "使用者補充",
+      "description": "11/05 新竹→桃園計程車",
+      "category": "台灣機場接送",
+      "currency": "TWD",
+      "amount": 1100,
+      "status": "列入總額",
+      "evidence": "文字補充",
+      "notes": "",
+      "id": 5,
+      "activityDate": "11/05"
+    },
+    {
+      "date": "未提供交易日",
+      "service_date": "11/05–11/10",
+      "merchant": "使用者補充",
+      "description": "11/10 桃園→新竹計程車",
+      "category": "台灣機場接送",
+      "currency": "TWD",
+      "amount": 1200,
+      "status": "列入總額",
+      "evidence": "文字補充",
+      "notes": "",
+      "id": 6,
+      "activityDate": "11/10"
+    },
+    {
+      "date": "2026/11/04",
+      "service_date": "11/04",
+      "merchant": "PAYMUL",
+      "description": "柳川／太宰府交通、船票與火車票",
+      "category": "當地交通及票券",
+      "currency": "TWD",
+      "amount": 1507,
+      "status": "列入總額",
+      "evidence": "IMG_4734.jpeg",
+      "notes": "購買日11/04；使用日11/06",
+      "id": 7,
+      "activityDate": "11/06"
+    },
+    {
+      "date": "2026/11/05",
+      "service_date": "11/05",
+      "merchant": "MOBILE SUICA APPLE",
+      "description": "西瓜卡加值",
+      "category": "當地交通及票券",
+      "currency": "TWD",
+      "amount": 209,
+      "status": "列入總額",
+      "evidence": "IMG_4734.jpeg",
+      "notes": "加值不等同實際乘車支出；按旅行現金流列",
+      "id": 8,
+      "activityDate": "11/05"
+    },
+    {
+      "date": "2026/11/05",
+      "service_date": "11/05",
+      "merchant": "MAXVALUE EX MINATOM...",
+      "description": "晚間超市採買",
+      "category": "餐飲與食品",
+      "currency": "TWD",
+      "amount": 329,
+      "status": "列入總額",
+      "evidence": "IMG_4734.jpeg",
+      "notes": "",
+      "id": 9,
+      "activityDate": "11/05"
+    },
+    {
+      "date": "2026/11/05",
+      "service_date": "11/05",
+      "merchant": "UBER *TRIP",
+      "description": "福岡機場→住宿（相關費用）",
+      "category": "當地交通及票券",
+      "currency": "TWD",
+      "amount": 21,
+      "status": "列入總額",
+      "evidence": "IMG_4734.jpeg",
+      "notes": "可能為同趟車資調整；是否額外費用待 Uber 收據核對",
+      "id": 10,
+      "activityDate": "11/05"
+    },
+    {
+      "date": "2026/11/05",
+      "service_date": "11/05",
+      "merchant": "UBER *PENDING",
+      "description": "機場→住宿暫扣／候選車資",
+      "category": "待核對扣款",
+      "currency": "TWD",
+      "amount": 895,
+      "status": "待核對",
+      "evidence": "IMG_4734.jpeg",
+      "notes": "不計入已確認總額",
+      "id": 11,
+      "activityDate": "11/05"
+    },
+    {
+      "date": "2026/11/05",
+      "service_date": "11/05",
+      "merchant": "UBER *PENDING",
+      "description": "機場→住宿暫扣／候選車資",
+      "category": "待核對扣款",
+      "currency": "TWD",
+      "amount": 903,
+      "status": "待核對",
+      "evidence": "IMG_4734.jpeg",
+      "notes": "不計入已確認總額，勿與895雙計",
+      "id": 12,
+      "activityDate": "11/05"
+    },
+    {
+      "date": "2026/11/06",
+      "service_date": "11/06",
+      "merchant": "WAKAMATSUYA",
+      "description": "若松屋鰻魚飯",
+      "category": "餐飲與食品",
+      "currency": "TWD",
+      "amount": 1761,
+      "status": "列入總額",
+      "evidence": "IMG_4734.jpeg",
+      "notes": "",
+      "id": 13,
+      "activityDate": "11/06"
+    },
+    {
+      "date": "2026/11/06",
+      "service_date": "11/06",
+      "merchant": "UBER *PENDING",
+      "description": "天神→住宿計程車",
+      "category": "待核對扣款",
+      "currency": "TWD",
+      "amount": 315,
+      "status": "待核對",
+      "evidence": "IMG_4735.jpeg",
+      "notes": "尚待確定是否最終入帳",
+      "id": 14,
+      "activityDate": "11/06"
+    },
+    {
+      "date": "2026/11/06",
+      "service_date": "11/06",
+      "merchant": "D DONQUIJOTE FUKUO...",
+      "description": "唐吉訶德伴手禮",
+      "category": "購物與伴手禮",
+      "currency": "TWD",
+      "amount": 4769,
+      "status": "列入總額",
+      "evidence": "IMG_4735.jpeg",
+      "notes": "",
+      "id": 15,
+      "activityDate": "11/06"
+    },
+    {
+      "date": "2026/11/06",
+      "service_date": "11/06",
+      "merchant": "RAKUTENPAY HAKATAR...",
+      "description": "魚男（FISHMAN）晚餐",
+      "category": "餐飲與食品",
+      "currency": "TWD",
+      "amount": 3818,
+      "status": "列入總額",
+      "evidence": "IMG_4735.jpeg",
+      "notes": "",
+      "id": 16,
+      "activityDate": "11/06"
+    },
+    {
+      "date": "2026/11/06",
+      "service_date": "11/06",
+      "merchant": "SAWAWA DAZAIFUTEN",
+      "description": "抹茶蕨餅",
+      "category": "餐飲與食品",
+      "currency": "TWD",
+      "amount": 82,
+      "status": "列入總額",
+      "evidence": "IMG_4735.jpeg",
+      "notes": "",
+      "id": 17,
+      "activityDate": "11/06"
+    },
+    {
+      "date": "2026/11/06",
+      "service_date": "11/06",
+      "merchant": "SUGIYOHOEN",
+      "description": "柚子飲",
+      "category": "餐飲與食品",
+      "currency": "TWD",
+      "amount": 447,
+      "status": "列入總額",
+      "evidence": "IMG_4735.jpeg",
+      "notes": "",
+      "id": 18,
+      "activityDate": "11/06"
+    },
+    {
+      "date": "2026/11/06",
+      "service_date": "11/06",
+      "merchant": "SQ*SUGIYOUHOUEN_TE...",
+      "description": "太宰府蜂巢冰淇淋",
+      "category": "餐飲與食品",
+      "currency": "TWD",
+      "amount": 199,
+      "status": "列入總額",
+      "evidence": "IMG_4735.jpeg",
+      "notes": "",
+      "id": 19,
+      "activityDate": "11/06"
+    },
+    {
+      "date": "2026/11/06",
+      "service_date": "11/06",
+      "merchant": "LAWSON",
+      "description": "超商採買",
+      "category": "餐飲與食品",
+      "currency": "TWD",
+      "amount": 226,
+      "status": "列入總額",
+      "evidence": "IMG_4735.jpeg",
+      "notes": "",
+      "id": 20,
+      "activityDate": "11/06"
+    },
+    {
+      "date": "2026/11/07",
+      "service_date": "11/07",
+      "merchant": "DAIMARUFUKUOKATENJ...",
+      "description": "大丸 LOA 洗髮精",
+      "category": "購物與伴手禮",
+      "currency": "TWD",
+      "amount": 2396,
+      "status": "列入總額",
+      "evidence": "IMG_4736.jpeg",
+      "notes": "",
+      "id": 21,
+      "activityDate": "11/07"
+    },
+    {
+      "date": "2026/11/07",
+      "service_date": "11/07",
+      "merchant": "DAIMARUFUKUOKATENJ...",
+      "description": "大丸小熊維尼紀念品",
+      "category": "購物與伴手禮",
+      "currency": "TWD",
+      "amount": 1413,
+      "status": "列入總額",
+      "evidence": "IMG_4736.jpeg",
+      "notes": "",
+      "id": 22,
+      "activityDate": "11/07"
+    },
+    {
+      "date": "2026/11/07",
+      "service_date": "11/07",
+      "merchant": "ICHIRANHONSHIYASOU...",
+      "description": "一蘭拉麵",
+      "category": "餐飲與食品",
+      "currency": "TWD",
+      "amount": 534,
+      "status": "列入總額",
+      "evidence": "IMG_4736.jpeg",
+      "notes": "",
+      "id": 23,
+      "activityDate": "11/07"
+    },
+    {
+      "date": "2026/11/07",
+      "service_date": "11/07",
+      "merchant": "MATSUDA YA",
+      "description": "草莓大福",
+      "category": "餐飲與食品",
+      "currency": "TWD",
+      "amount": 144,
+      "status": "列入總額",
+      "evidence": "IMG_4736.jpeg",
+      "notes": "",
+      "id": 24,
+      "activityDate": "11/07"
+    },
+    {
+      "date": "2026/11/07",
+      "service_date": "11/07",
+      "merchant": "JR HAKATA CITY",
+      "description": "水炊雞午餐",
+      "category": "餐飲與食品",
+      "currency": "TWD",
+      "amount": 1584,
+      "status": "列入總額",
+      "evidence": "IMG_4736.jpeg",
+      "notes": "",
+      "id": 25,
+      "activityDate": "11/07"
+    },
+    {
+      "date": "2026/11/07",
+      "service_date": "11/07",
+      "merchant": "JR HAKATA CITY",
+      "description": "Afternoon Tea 伴手禮",
+      "category": "購物與伴手禮",
+      "currency": "TWD",
+      "amount": 2052,
+      "status": "列入總額",
+      "evidence": "IMG_4736.jpeg",
+      "notes": "",
+      "id": 26,
+      "activityDate": "11/07"
+    },
+    {
+      "date": "2026/11/07",
+      "service_date": "11/08",
+      "merchant": "KLOOK TRAVEL-FLICKET",
+      "description": "糸島一日遊兩人",
+      "category": "行程活動",
+      "currency": "TWD",
+      "amount": 3308,
+      "status": "列入總額",
+      "evidence": "IMG_4736.jpeg",
+      "notes": "刷卡11/07，實際出遊11/08；與由布院團分開",
+      "id": 27,
+      "activityDate": "11/08"
+    },
+    {
+      "date": "2026/11/07",
+      "service_date": "11/07",
+      "merchant": "MCDONALD S",
+      "description": "麥當勞晚餐",
+      "category": "餐飲與食品",
+      "currency": "TWD",
+      "amount": 396,
+      "status": "列入總額",
+      "evidence": "IMG_4737.jpeg",
+      "notes": "",
+      "id": 28,
+      "activityDate": "11/07"
+    },
+    {
+      "date": "2026/11/07",
+      "service_date": "11/07",
+      "merchant": "FUKUOKA PARCO",
+      "description": "貓福珊迪紀念品",
+      "category": "購物與伴手禮",
+      "currency": "TWD",
+      "amount": 1240,
+      "status": "列入總額",
+      "evidence": "IMG_4737.jpeg",
+      "notes": "",
+      "id": 29,
+      "activityDate": "11/07"
+    },
+    {
+      "date": "2026/11/08",
+      "service_date": "11/08",
+      "merchant": "MTSUNABEICHIFUJ IHAK...",
+      "description": "一藤牛腸鍋晚餐",
+      "category": "餐飲與食品",
+      "currency": "TWD",
+      "amount": 1877,
+      "status": "列入總額",
+      "evidence": "IMG_4737.jpeg",
+      "notes": "",
+      "id": 30,
+      "activityDate": "11/08"
+    },
+    {
+      "date": "2026/11/08",
+      "service_date": "11/08",
+      "merchant": "ITOSHIMAFARMHOUSEU...",
+      "description": "UOVO 布丁果醬",
+      "category": "購物與伴手禮",
+      "currency": "TWD",
+      "amount": 413,
+      "status": "列入總額",
+      "evidence": "IMG_4737.jpeg",
+      "notes": "分類為食品伴手禮",
+      "id": 31,
+      "activityDate": "11/08"
+    },
+    {
+      "date": "2026/11/08",
+      "service_date": "11/08",
+      "merchant": "ITOSHIMAFARMHOUSEU...",
+      "description": "UOVO 冰淇淋",
+      "category": "餐飲與食品",
+      "currency": "TWD",
+      "amount": 163,
+      "status": "列入總額",
+      "evidence": "IMG_4737.jpeg",
+      "notes": "",
+      "id": 32,
+      "activityDate": "11/08"
+    },
+    {
+      "date": "2026/11/08",
+      "service_date": "11/08",
+      "merchant": "MORINOCAFE MIDORIN...",
+      "description": "森林咖啡廳",
+      "category": "餐飲與食品",
+      "currency": "TWD",
+      "amount": 707,
+      "status": "列入總額",
+      "evidence": "IMG_4737.jpeg",
+      "notes": "",
+      "id": 33,
+      "activityDate": "11/08"
+    },
+    {
+      "date": "2026/11/08",
+      "service_date": "11/08",
+      "merchant": "MOBILE SUICA APPLE",
+      "description": "西瓜卡加值",
+      "category": "當地交通及票券",
+      "currency": "TWD",
+      "amount": 208,
+      "status": "列入總額",
+      "evidence": "IMG_4737.jpeg",
+      "notes": "按旅行現金流列",
+      "id": 34,
+      "activityDate": "11/08"
+    },
+    {
+      "date": "2026/11/08",
+      "service_date": "11/08",
+      "merchant": "DAIKOKU DRUG",
+      "description": "大國藥妝伴手禮",
+      "category": "購物與伴手禮",
+      "currency": "TWD",
+      "amount": 1370,
+      "status": "列入總額",
+      "evidence": "IMG_4738.jpeg",
+      "notes": "",
+      "id": 35,
+      "activityDate": "11/08"
+    },
+    {
+      "date": "2026/11/08",
+      "service_date": "11/08",
+      "merchant": "UNIQLO CO.,LTD",
+      "description": "UNIQLO 衣服",
+      "category": "購物與伴手禮",
+      "currency": "TWD",
+      "amount": 4983,
+      "status": "列入總額",
+      "evidence": "IMG_4738.jpeg",
+      "notes": "",
+      "id": 36,
+      "activityDate": "11/08"
+    },
+    {
+      "date": "2026/11/09",
+      "service_date": "11/09",
+      "merchant": "UMIJIGOKUSHOPREN",
+      "description": "海地獄伴手禮",
+      "category": "購物與伴手禮",
+      "currency": "TWD",
+      "amount": 899,
+      "status": "列入總額",
+      "evidence": "IMG_4738.jpeg",
+      "notes": "",
+      "id": 37,
+      "activityDate": "11/09"
+    },
+    {
+      "date": "2026/11/09",
+      "service_date": "11/09",
+      "merchant": "MIFFY BAKERY YUFUIN",
+      "description": "米菲兔冰淇淋",
+      "category": "餐飲與食品",
+      "currency": "TWD",
+      "amount": 135,
+      "status": "列入總額",
+      "evidence": "IMG_4738.jpeg",
+      "notes": "",
+      "id": 38,
+      "activityDate": "11/09"
+    },
+    {
+      "date": "2026/11/09",
+      "service_date": "11/09",
+      "merchant": "YUFUIN CUCUCHI",
+      "description": "栗子蒙布朗銅鑼燒",
+      "category": "餐飲與食品",
+      "currency": "TWD",
+      "amount": 311,
+      "status": "列入總額",
+      "evidence": "IMG_4738.jpeg",
+      "notes": "",
+      "id": 39,
+      "activityDate": "11/09"
+    },
+    {
+      "date": "2026/11/09",
+      "service_date": "11/09",
+      "merchant": "HANAKOJIKIKUYA",
+      "description": "由布院布丁銅鑼燒",
+      "category": "餐飲與食品",
+      "currency": "TWD",
+      "amount": 52,
+      "status": "列入總額",
+      "evidence": "IMG_4738.jpeg",
+      "notes": "",
+      "id": 40,
+      "activityDate": "11/09"
+    },
+    {
+      "date": "2026/11/09",
+      "service_date": "11/09",
+      "merchant": "MCDONALD S",
+      "description": "麥當勞早餐",
+      "category": "餐飲與食品",
+      "currency": "TWD",
+      "amount": 113,
+      "status": "列入總額",
+      "evidence": "IMG_4738.jpeg",
+      "notes": "",
+      "id": 41,
+      "activityDate": "11/09"
+    },
+    {
+      "date": "2026/11/09",
+      "service_date": "11/10",
+      "merchant": "UBER *PENDING",
+      "description": "隔日機場接送預約預扣",
+      "category": "待核對扣款",
+      "currency": "TWD",
+      "amount": 1031,
+      "status": "預扣後沖回",
+      "evidence": "IMG_4739.jpeg",
+      "notes": "11/10有對應-1,031；全額沖回",
+      "id": 42,
+      "activityDate": "11/10"
+    },
+    {
+      "date": "2026/11/09",
+      "service_date": "11/09",
+      "merchant": "HARO-DEI",
+      "description": "現打果汁",
+      "category": "餐飲與食品",
+      "currency": "TWD",
+      "amount": 130,
+      "status": "列入總額",
+      "evidence": "IMG_4739.jpeg",
+      "notes": "",
+      "id": 43,
+      "activityDate": "11/09"
+    },
+    {
+      "date": "2026/11/09",
+      "service_date": "11/09",
+      "merchant": "TOMETEBACHIKUSHIGU...",
+      "description": "tomatoba 博多筑... 晚餐",
+      "category": "餐飲與食品",
+      "currency": "TWD",
+      "amount": 2153,
+      "status": "列入總額",
+      "evidence": "IMG_4739.jpeg",
+      "notes": "店名截圖被截斷，不補猜",
+      "id": 44,
+      "activityDate": "11/09"
+    },
+    {
+      "date": "2026/11/10",
+      "service_date": "11/10",
+      "merchant": "FUKUOKA AIRPORT",
+      "description": "機場伴手禮",
+      "category": "購物與伴手禮",
+      "currency": "TWD",
+      "amount": 1744,
+      "status": "列入總額",
+      "evidence": "IMG_4739.jpeg",
+      "notes": "",
+      "id": 45,
+      "activityDate": "11/10"
+    },
+    {
+      "date": "2026/11/10",
+      "service_date": "11/10",
+      "merchant": "UBER *PENDING",
+      "description": "前日機場接送預扣退回",
+      "category": "待核對扣款",
+      "currency": "TWD",
+      "amount": -1031,
+      "status": "預扣後沖回",
+      "evidence": "IMG_4739.jpeg",
+      "notes": "沖回11/09 的+1,031，不算收入",
+      "id": 46,
+      "activityDate": "11/10"
+    },
+    {
+      "date": "2026/11/10",
+      "service_date": "11/10",
+      "merchant": "FUKUOKA AIRPORT",
+      "description": "機場札幌農學校",
+      "category": "購物與伴手禮",
+      "currency": "TWD",
+      "amount": 304,
+      "status": "列入總額",
+      "evidence": "IMG_4739.jpeg",
+      "notes": "",
+      "id": 47,
+      "activityDate": "11/10"
+    },
+    {
+      "date": "2026/11/10",
+      "service_date": "11/10",
+      "merchant": "UBER *TRIP",
+      "description": "住宿→福岡機場計程車",
+      "category": "當地交通及票券",
+      "currency": "TWD",
+      "amount": 938,
+      "status": "列入總額",
+      "evidence": "IMG_4739.jpeg",
+      "notes": "如有Uber最終收據請以之為準",
+      "id": 48,
+      "activityDate": "11/10"
+    },
+    {
+      "date": "2026/11/10",
+      "service_date": "11/10",
+      "merchant": "BITSUKUKAMERAGURU-...",
+      "description": "機場玩具",
+      "category": "購物與伴手禮",
+      "currency": "TWD",
+      "amount": 457,
+      "status": "列入總額",
+      "evidence": "IMG_4740.jpeg",
+      "notes": "",
+      "id": 49,
+      "activityDate": "11/10"
+    },
+    {
+      "date": "2026/11/10",
+      "service_date": "11/10",
+      "merchant": "FUKUOKA AIRPORT",
+      "description": "機場博多拉麵",
+      "category": "餐飲與食品",
+      "currency": "TWD",
+      "amount": 277,
+      "status": "列入總額",
+      "evidence": "IMG_4740.jpeg",
+      "notes": "",
+      "id": 50,
+      "activityDate": "11/10"
+    },
+    {
+      "date": "未提供交易日",
+      "service_date": "11/08",
+      "merchant": "糸島海鮮午餐",
+      "description": "糸島海鮮套餐（兩人）",
+      "category": "餐飲與食品",
+      "currency": "JPY",
+      "amount": 8600,
+      "status": "日圓另計",
+      "evidence": "文字補充",
+      "notes": "未提供新臺幣實際扣款額／匯率，不納入TWD總額；付款方式未提供",
+      "id": 51,
+      "activityDate": "11/08"
+    }
+  ],
+  "days": [
+    {
+      "id": 1,
+      "date": "11/05",
+      "week": "四",
+      "place": "抵達福岡",
+      "title": "從新竹出發，在福岡安頓下來",
+      "intro": "CI116 抵達福岡，入住大濠公園附近住宿，晚間超市採買。",
+      "events": [
+        {
+          "title": "新竹 → 桃園機場",
+          "period": "出發",
+          "note": "台灣出發段計程車。",
+          "location": "桃園國際機場",
+          "ids": [
+            5
+          ]
+        },
+        {
+          "title": "CI116 飛往福岡",
+          "period": "原定16:25 → 19:35",
+          "note": "航班時間沿用原計畫；來回機票列在整趟共用費用。",
+          "location": "福岡空港 国際線ターミナル",
+          "ids": []
+        },
+        {
+          "title": "機場 → 住宿、入住",
+          "period": "抵達後",
+          "note": "NT$21為已知TRIP相關費用，仍須核對是否與最終車資重疊；895／903暫扣未列入。",
+          "location": "Encounter Ohori 福岡市中央区港2丁目4-4",
+          "ids": [
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "title": "MAXVALUE 超市與交通加值",
+          "period": "晚間",
+          "note": "Suica按加值現金流列示，並非當天已用完的乘車費。",
+          "location": "マックスバリュエクスプレス 港町店 福岡",
+          "ids": [
+            9,
+            8
+          ]
+        }
+      ],
+      "reference": "11/5原定牛腸鍋沒有本次用餐憑證，不記為已到訪；已確認的一藤牛腸鍋在11/8。"
+    },
+    {
+      "id": 2,
+      "date": "11/06",
+      "week": "五",
+      "place": "柳川・太宰府",
+      "title": "水鄉、鰻魚與太宰府，晚上吃魚男",
+      "intro": "柳川川下り → 若松屋 → 太宰府 → 魚男；晚間採購。下列鐘點為原預定／預約時間，並非實測。",
+      "events": [
+        {
+          "title": "西鐵與柳川川下り",
+          "period": "原定07:15–10:40",
+          "note": "PAYMUL於11/4購買，實際歸屬11/6；交通與船票合併一筆，不重複拆算。",
+          "location": "柳川観光開発 松月乗船場",
+          "ids": [
+            7
+          ]
+        },
+        {
+          "title": "沖端、御花周邊",
+          "period": "原定10:40–12:20",
+          "note": "沿用主檔路線；未提供獨立消費。",
+          "location": "柳川 沖端 御花",
+          "ids": []
+        },
+        {
+          "title": "若松屋鰻魚",
+          "period": "原預約12:30",
+          "note": "已有用餐消費紀錄。",
+          "location": "うなぎ料理 若松屋 柳川市沖端町26",
+          "ids": [
+            13
+          ]
+        },
+        {
+          "title": "太宰府天滿宮與表參道",
+          "period": "原定15:00–16:25",
+          "note": "抹茶蕨餅、柚子飲與蜂巢冰淇淋。",
+          "location": [
+            "太宰府天満宮",
+            "茶和々 太宰府店",
+            "杉養蜂園 太宰府店"
+          ],
+          "ids": [
+            17,
+            18,
+            19
+          ]
+        },
+        {
+          "title": "魚男 FISHMAN",
+          "period": "原預約18:00",
+          "note": "已確認晚餐。",
+          "location": "博多炉端 魚男 福岡市中央区今泉1-4-23",
+          "ids": [
+            16
+          ]
+        },
+        {
+          "title": "唐吉訶德與超商採買、回住宿",
+          "period": "晚間／時間未記錄",
+          "note": "唐吉訶德與LAWSON分店未確認，地圖為福岡區域搜尋。回程Uber315仍待核。",
+          "location": [
+            "ドン・キホーテ 福岡",
+            "LAWSON 福岡",
+            "Encounter Ohori 福岡市中央区港2丁目4-4"
+          ],
+          "ids": [
+            15,
+            20,
+            14
+          ]
+        }
+      ],
+      "reference": "消費證實主軸與兩餐；船班與停留時間保留為原計畫參照。"
+    },
+    {
+      "id": 3,
+      "date": "11/07",
+      "week": "六",
+      "place": "博多・天神",
+      "title": "把兩個商圈的美食與戰利品帶回來",
+      "intro": "博多與天神採購合併一天；各站未提供完整時間，以下按區域整理，不推定精確到訪順序。",
+      "events": [
+        {
+          "title": "JR Hakata City：水炊雞午餐與採購",
+          "period": "午餐／購物",
+          "note": "水炊雞實際店名未確認，不套用原計畫華味鳥分店。",
+          "location": "JR博多シティ",
+          "ids": [
+            25,
+            26
+          ]
+        },
+        {
+          "title": "大丸：LOA洗髮精與小熊維尼",
+          "period": "時間未記錄",
+          "note": "兩筆購物各自保留，未推定具體角色款式。",
+          "location": "大丸福岡天神店",
+          "ids": [
+            21,
+            22
+          ]
+        },
+        {
+          "title": "PARCO：貓福珊迪商品",
+          "period": "時間未記錄",
+          "note": "角色購物紀錄。",
+          "location": "福岡PARCO",
+          "ids": [
+            29
+          ]
+        },
+        {
+          "title": "一蘭與草莓大福",
+          "period": "時間未記錄",
+          "note": "一蘭分店及大福店定位未確認；下方為天神／博多區域參考。",
+          "location": [
+            "一蘭 福岡",
+            "天神 博多 いちご大福"
+          ],
+          "ids": [
+            23,
+            24
+          ]
+        },
+        {
+          "title": "麥當勞晚餐",
+          "period": "晚餐",
+          "note": "分店未提供。",
+          "location": "マクドナルド 福岡",
+          "ids": [
+            28
+          ]
+        }
+      ],
+      "reference": "Canal City、櫛田神社、川端商店街、Hands、阪急、明太重與武蔵屬原計畫參照，不能由現有資料確認全部到訪或用餐。糸島團費雖於今天付款，歸屬11/8。"
+    },
+    {
+      "id": 4,
+      "date": "11/08",
+      "week": "日",
+      "place": "糸島・市區",
+      "title": "臨時改去糸島，吃海鮮、咖啡與牛腸鍋",
+      "intro": "原天神整日購物改為糸島Klook一日遊；回市區後補購物與晚餐。",
+      "events": [
+        {
+          "title": "Klook 糸島一日遊",
+          "period": "白天",
+          "note": "兩人團費11/7刷卡，按11/8活動列入。實際套裝與完整景點未提供，不補猜站點。",
+          "location": "糸島市",
+          "ids": [
+            27
+          ]
+        },
+        {
+          "title": "糸島海鮮套餐",
+          "period": "午餐",
+          "note": "兩人¥8,600；店名、付款方式與實際臺幣金額未提供，地圖僅為糸島區域。",
+          "location": "糸島市",
+          "ids": [
+            51
+          ]
+        },
+        {
+          "title": "UOVO：冰淇淋與布丁果醬",
+          "period": "團中／時間未記錄",
+          "note": "食品伴手禮與當場點心分別分類。",
+          "location": "糸島ファームハウス UOVO",
+          "ids": [
+            31,
+            32
+          ]
+        },
+        {
+          "title": "森林咖啡廳",
+          "period": "團中／時間未記錄",
+          "note": "交易名MORINOCAFE MIDORIN…；精確店名未確認，僅提供糸島咖啡區域搜尋。",
+          "location": "糸島 森 カフェ",
+          "ids": [
+            33
+          ]
+        },
+        {
+          "title": "一藤牛腸鍋",
+          "period": "回市區晚餐",
+          "note": "本趟有紀錄的牛腸鍋；分店未完全確認。",
+          "location": "もつ鍋 一藤 福岡",
+          "ids": [
+            30
+          ]
+        },
+        {
+          "title": "UNIQLO、大國藥妝與Suica加值",
+          "period": "回程後",
+          "note": "店舖分店未提供；加值依現金流列示。",
+          "location": [
+            "ユニクロ 天神 福岡",
+            "ダイコクドラッグ 福岡"
+          ],
+          "ids": [
+            36,
+            35,
+            34
+          ]
+        }
+      ],
+      "reference": "11/8不再記為天神整日購物；原たばねのし與一蘭時段不當作已完成紀錄。"
+    },
+    {
+      "id": 5,
+      "date": "11/09",
+      "week": "一",
+      "place": "由布院・別府",
+      "title": "海地獄與由布院，沿路吃甜點",
+      "intro": "Klook由布院＋別府一日遊，海地獄伴手禮、湯之坪角色店與小吃，回博多晚餐。",
+      "events": [
+        {
+          "title": "麥當勞早餐",
+          "period": "早餐",
+          "note": "分店未提供。",
+          "location": "マクドナルド 博多駅",
+          "ids": [
+            41
+          ]
+        },
+        {
+          "title": "Klook 由布院＋別府",
+          "period": "白天",
+          "note": "兩人團費；付款日未提供，不與糸島團費混淆。",
+          "location": [
+            "別府市",
+            "由布院"
+          ],
+          "ids": [
+            2
+          ]
+        },
+        {
+          "title": "別府海地獄",
+          "period": "團中／時間未記錄",
+          "note": "此筆為伴手禮，不能推定包含景點門票。",
+          "location": "海地獄 別府",
+          "ids": [
+            37
+          ]
+        },
+        {
+          "title": "湯之坪街道：Miffy與甜點",
+          "period": "散策／時間未記錄",
+          "note": "米菲冰淇淋、栗子蒙布朗銅鑼燒、布丁銅鑼燒與果汁。果汁精確店點未確認。",
+          "location": [
+            "湯の坪街道",
+            "由布院 ミッフィー森のキッチン",
+            "由布院 Cucuchi",
+            "花麴菊家 由布院"
+          ],
+          "ids": [
+            38,
+            39,
+            40,
+            43
+          ]
+        },
+        {
+          "title": "tomatoba 晚餐（原紀錄名稱）",
+          "period": "回博多後",
+          "note": "交易名TOMETEBACHIKUSHIGU…被截斷；不補猜完整店名，地圖為博多筑紫口區域。",
+          "location": "博多駅 筑紫口",
+          "ids": [
+            44
+          ]
+        }
+      ],
+      "reference": "金鱗湖為原定重點，未有足夠資料確認到訪時間。機場接送預扣1,031及隔日沖回在明細保留，淨額0。"
+    },
+    {
+      "id": 6,
+      "date": "11/10",
+      "week": "二",
+      "place": "福岡 → 新竹",
+      "title": "最後的機場採購，帶著回憶返台",
+      "intro": "住宿搭Uber到福岡國際線，早餐與伴手禮後搭CI111返台，再搭車回新竹。",
+      "events": [
+        {
+          "title": "住宿 → 福岡國際線",
+          "period": "原定07:15–07:45",
+          "note": "正式TRIP938列入；前日預扣與今日退款互相沖回，不再算車資。",
+          "location": "福岡空港 国際線ターミナル",
+          "ids": [
+            48,
+            42,
+            46
+          ]
+        },
+        {
+          "title": "機場博多拉麵",
+          "period": "早餐",
+          "note": "餐廳精確分店未提供。",
+          "location": "福岡空港 国際線ターミナル",
+          "ids": [
+            50
+          ]
+        },
+        {
+          "title": "伴手禮、札幌農學校與玩具",
+          "period": "候機期間",
+          "note": "各筆保留，機場店點未提供。",
+          "location": "福岡空港 国際線ターミナル",
+          "ids": [
+            45,
+            47,
+            49
+          ]
+        },
+        {
+          "title": "CI111 福岡 → 桃園",
+          "period": "原定11:00起飛",
+          "note": "航班時間沿用原計畫，來回機票列共用費用。",
+          "location": "桃園國際機場",
+          "ids": []
+        },
+        {
+          "title": "桃園 → 新竹",
+          "period": "抵台後",
+          "note": "台灣返家段計程車。",
+          "location": "新竹市",
+          "ids": [
+            6
+          ]
+        }
+      ],
+      "reference": "未提供其他現金、卡片與退稅入帳，不能將目前合計視為完整最終帳單。"
+    }
+  ],
+  "shared": [
+    0,
+    1,
+    3,
+    4
+  ]
+};
